@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/exchangeListFragment">
+    <fragment
+        android:id="@+id/exchangeListFragment"
+        android:name="com.example.fixerapp.ui.fragments.ExchangeListFragment"
+        android:label="@string/exchange_rate_list_fragment_label"
+        tools:layout="@layout/fragment_exchange_list" >
+        <action
+            android:id="@+id/action_exchangeListFragment_to_exchangeDetailsFragment"
+            app:destination="@id/exchangeDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exchangeDetailsFragment"
+        android:name="com.example.fixerapp.ui.fragments.ExchangeDetailsFragment"
+        android:label="@string/exchange_rate_details_fragment_label"
+        tools:layout="@layout/fragment_exchange_details" >
+        <argument
+            android:name="repoIndex"
+            app:argType="integer" />
+    </fragment>
+</navigation>

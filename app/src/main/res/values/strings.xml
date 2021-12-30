@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FixerApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="exchange_rate_list_fragment_label">Exchange rates list</string>
+    <string name="exchange_rate_details_fragment_label">Exchange rate details</string>
+
+    <string name="eur">EUR</string>
+    <string name="equals_sign">Equals sign</string>
+    <string name="_1">1</string>
+</resources>
