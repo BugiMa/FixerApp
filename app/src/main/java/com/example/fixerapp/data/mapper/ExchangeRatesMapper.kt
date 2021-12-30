@@ -1,4 +1,4 @@
-package com.example.fixerapp.data.remote.mapper
+package com.example.fixerapp.data.mapper
 
 import com.example.fixerapp.data.remote.ExchangeRatesResponse
 import com.example.fixerapp.domain.ExchangeRate

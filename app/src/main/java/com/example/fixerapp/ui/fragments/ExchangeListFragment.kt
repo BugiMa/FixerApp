@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.fixerapp.R
 import com.example.fixerapp.databinding.FragmentExchangeListBinding
 import com.example.fixerapp.domain.ExchangeRate
-import com.example.fixerapp.ui.SharedViewModel
+import com.example.fixerapp.ui.viewmodel.SharedViewModel
 import com.example.fixerapp.ui.adapters.ExchangeRateListAdapter
 import com.example.fixerapp.util.Constants.NO_INTERNET
 import com.example.fixerapp.util.data.Resource

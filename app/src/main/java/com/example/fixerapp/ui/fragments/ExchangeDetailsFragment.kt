@@ -8,9 +8,8 @@ import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.navArgs
 import com.example.fixerapp.databinding.FragmentExchangeDetailsBinding
-import com.example.fixerapp.ui.SharedViewModel
+import com.example.fixerapp.ui.viewmodel.SharedViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import kotlin.math.roundToLong
 
 @AndroidEntryPoint
 class ExchangeDetailsFragment : Fragment() {

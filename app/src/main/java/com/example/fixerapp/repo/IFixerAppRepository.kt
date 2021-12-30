@@ -1,7 +1,6 @@
 package com.example.fixerapp.repo
 
 import com.example.fixerapp.data.remote.ExchangeRatesResponse
-import com.example.fixerapp.domain.ExchangeRate
 import retrofit2.Response
 
 interface IFixerAppRepository {

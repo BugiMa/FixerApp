@@ -18,7 +18,6 @@ class ExchangeRateListAdapter(
             itemBinding.date.text = date
         }
     }
-
     inner class ExchangeRateViewHolder(private val itemBinding: ItemExchangeRateBinding): RecyclerView.ViewHolder(itemBinding.root) {
         fun bind(currency: String, exchangeRate: Double) {
             itemBinding.currency.text = currency
@@ -63,6 +62,4 @@ class ExchangeRateListAdapter(
         this.rates.addAll(data)
         this.notifyItemRangeInserted(itemCount, data.size)
     }
-
-
 }
